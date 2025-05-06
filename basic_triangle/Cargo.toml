@@ -1,0 +1,11 @@
+[package]
+name = "basic_triangle"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasi = "=0.13.1+wasi-0.2.0"
+wit-bindgen = "0.41"
